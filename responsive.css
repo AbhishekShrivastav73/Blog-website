@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1000px) {
+    #bars{
+        display: block
+    }
+    nav ul{
+        display: none
+    }
+    .hero{
+        padding: 2vw 4vw;
+        justify-content: flex-start
+    }
+    .hero_content{
+        width: 80%;
+        height: fit-content;
+    }
+    .hero_img img{
+        width: 100%;
+    }
+    .hero_content h2{
+        font-size: 4rem;
+        font-weight: 800;
+    }
+    .h-card{
+        flex-direction: column
+    }
+    .h-card img{
+        width: 100%;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+  }
