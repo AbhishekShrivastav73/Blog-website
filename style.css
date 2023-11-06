@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    line-height: 1.4;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+    box-shadow: 2px 3px 5px #E2E2E2
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 8rem 8px 8rem;
+    flex-wrap: wrap;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+nav ul li a,nav ul li{
+    text-decoration: none;
+    margin: 15px;
+    color: #4A5568;
+    font-size: 18px;
+    
+}
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2.5rem;
+   
+}
+.hero_content{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    flex-wrap: wrap;
+}
+.hero_content h2{
+    font-size: 5rem;
+}
+.hero_content h4{
+ color  : #4A5568;
+ font-size: 1.5rem;
+}
+.hero_img img{
+    border-radius: 10%;
+}
+.h-card{
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 2px solid #E2E2E2;  
+}
+.card_content{
+    display: flex;
+    flex-direction: column;
+    margin: 1.2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.status{
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    color: #4A5568;
+}
+.status button{
+    width: 9rem;
+    padding: 8px;
+    background-color: white;
+    border: none;
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+.card_content p{
+    color: #4A5568;
+    margin-top: 10px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 2rem;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 28.5%;
+    box-shadow: 2px 3px 5px #E2E2E2;
+    flex-wrap: wrap;
+}
+.card h3{
+    margin: 10px 0 0 10px;
+}
+.card p{
+    color: #4A5568;
+    margin: 10px 0 0 10px;
+}
