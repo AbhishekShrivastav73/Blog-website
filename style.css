@@ -14,11 +14,31 @@ header{
     box-shadow: 2px 3px 5px #E2E2E2
     
 }
+.overlays{
+    padding: 2rem;
+    display: none;
+    width: 0%;
+    overflow: hidden;
+    transition: all ease 0.9s;
+}
+.overlays ul{
+    list-style-type: none;
+    color: black;
+    font-size: 5vw
+}
+.overlays ul li a{
+    text-decoration: none;
+    color: #4A5568
+}
+
+#bars{
+    display: none
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 8px 8rem 8px 8rem;
+    margin: 8px 8vw 8px 8vw;
     flex-wrap: wrap;
 }
 nav ul {
@@ -40,7 +60,7 @@ nav ul li a,nav ul li{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    margin: 2.5rem;
+    padding: 4vw;
    
 }
 .hero_content{
@@ -50,7 +70,7 @@ nav ul li a,nav ul li{
     flex-wrap: wrap;
 }
 .hero_content h2{
-    font-size: 5rem;
+    font-size: 6vw;
 }
 .hero_content h4{
  color  : #4A5568;
